@@ -1,6 +1,6 @@
 package day01; // 패키지명
 
-public class Setp2 { // class start
+public class Step2 { // class start
     //m + 엔터
     public static void main(String[] args) { // main s
 
