@@ -25,7 +25,7 @@ public class Step4 {
                     학생수배열 = new int[Integer.parseInt(no)];  // 기존데이터 사라짐
                 }
                 for (int index = 0 ; index < 학생수배열.length ; index++){
-                    System.out.printf("%d = %s \n" , index , 학생수배열[index]);
+                    System.out.printf("%d = %s \n", index , 학생수배열[index]);
                 }
 
             } else if (ch.equals("2")) {
