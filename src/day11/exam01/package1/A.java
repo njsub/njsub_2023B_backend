@@ -1,4 +1,7 @@
 package day11.exam01.package1;
 
-public class A {
+// 클래스 (default/public)
+// (default) A { }
+class A {
+
 }
