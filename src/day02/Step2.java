@@ -29,7 +29,7 @@ public class Step2 { // class s
             // - 선언된 변수는 해당 중괄호 블록 내에서만 사용 가능하고 밖에서는 사용할 수 없다.
         int localValue = 10;
         if(true){
-            //중괄호 안으로 들어갈수 있따.
+            //중괄호 안으로 들어갈수 있다.
             localValue++;
             //
             int localValue2 = 20;
@@ -51,7 +51,7 @@ public class Step2 { // class s
         //1. print(리터럴 또는 변수명)
         System.out.print("출력문구1");      // 출력만 하고 줄바꿈 안함.
         System.out.print("출력문구2");
-        //2. println(리터럴 ㅉ또는 변수명) : 자동완선 sout
+        //2. println(리터럴 ㅉ또는 변수명) : 자동완성 sout
         System.out.println("출력3");
         System.out.println("출력4");
         //3. [p.69] printf("형식문자1", 리터럴 또는 변수명 ) : 자동완성 sout
