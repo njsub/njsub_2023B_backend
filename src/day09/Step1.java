@@ -13,8 +13,6 @@ public class Step1 { // cs
 
         // 2. 객체내 멤버(필드/메소드) 호출
         myCalc.powerOn();
-        // *
-        new Calculator().powerOn();
 
         // 3. 메소드 호출 하고 매개변수 전달.
         // - 매개변수 타입과 개수에 맞게 제공한다.
@@ -22,6 +20,8 @@ public class Step1 { // cs
         // myCalc.plus( "오" , "육"); // 타입이 불일치
         // - 리턴값이 있는 경우에는 변수에 저장
         int result = myCalc.plus( 5 , 6 );
+        // *
+        new Calculator().powerOn();
         System.out.println("result = " + result);
 
         // 4.
