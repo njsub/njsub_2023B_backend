@@ -4,7 +4,7 @@ public class Car {
 
     //클래스멤버
     //필드
-    int gas;
+   int gas;
 
 
     //생성자 : 객체 생성시  new
@@ -14,6 +14,7 @@ public class Car {
     //메소드
         //필드값 변경하는 메소드 [매개변수 int / 리턴 x]
     void setGas( int gas){
+
         this.gas = gas;
     }//fe
         //필드 값에 따른 결과반환메소드[매개변수x / 리턴 boolean]
@@ -36,6 +37,8 @@ public class Car {
                 return;
             }//ife
         }//we
+
+
         }//fe
 
     }//ce

@@ -18,11 +18,15 @@ public class Step1 { //cs
 
         // 필드사용
         user1.직업 = "마법사";
-        user1.직업 = "전사";
+        user2.직업 = "전사";
+        user1.레벨 = 10;
+        user2.레벨 = 40;
         System.out.println("user1.toString() = " + user1.toString());
         System.out.println("user2.toString() = " + user2.toString());
 
         // 메소드 호출
+        user1.공격();
+        user1.레벨업();
         System.out.println("user1.toString() = " + user1.toString());
         user2.공격();
         System.out.println("user2.toString() = " + user2.toString());

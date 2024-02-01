@@ -25,6 +25,11 @@ public class 캐릭터 {
         this.체력 -= random.nextInt(50);
     }
 
+    public void 레벨업(){
+
+        this.레벨 += 1;
+    }
+
 
     @Override
     public String toString() {
